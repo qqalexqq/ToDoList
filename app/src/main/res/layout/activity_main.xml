@@ -1,0 +1,22 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:weightSum="1"
+    tools:context=".MainActivity">
+
+    <ListView
+        android:id="@+id/taskList"
+        android:layout_width="fill_parent"
+        android:layout_height="460dp"
+        android:layout_weight="1"
+        android:layout_marginTop="6dp"/>
+    <Button
+        android:id="@+id/addTaskButton"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/add_task"
+        android:layout_gravity="center_horizontal" />
+
+</LinearLayout>
